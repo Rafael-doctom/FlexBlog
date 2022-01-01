@@ -26,7 +26,7 @@
     color: white;
     font-weight: 300;
     font-size: 1.2em;
-    padding: 10px;
+    padding-right: 10px;
     display: block;
 }
 
@@ -110,7 +110,7 @@
 }
 .produto-img{
     max-width: 100%;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 /*VALORES*/

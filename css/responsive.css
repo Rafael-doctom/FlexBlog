@@ -12,7 +12,37 @@
     }
     
 }
-@media (max-width: 360px){
+@media only screen and (min-width: 425px) and (max-width: 768px)  {
+    .header, .main, section.content, .produtos-bg, .qualidade-bg, .newslater-bg{
+        padding-left:10px;
+        padding-right:20px;
+    }
+    .produto-img{
+        max-width: 100%;
+        margin-left: 0 !important;
+    }
+    .news-form{
+        margin:0px !important;
+    }
+    .footer-bg {
+        padding-bottom: 20px !important;
+    }
+    
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 425px)  {
+    .header, .main, section.content, .produtos-bg, .qualidade-bg, .newslater-bg{
+        padding-left:10px;
+        padding-right:10px;
+    }
+ 
+    .produto-img{
+        width:280px;
+    }
+    .produto-img img{
+        width:280px;
+    }
     .main{
         font-size: 60%;
         padding: 10px;
