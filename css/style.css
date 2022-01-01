@@ -1,6 +1,3 @@
-    /*max-width: 960px; 
-    margin: 0 auto;*/
-
 /*HEADER*/
 .header-bg{
     background: #2c70ff;
@@ -9,7 +6,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    
 }
 .header{
     display: flex;
@@ -25,8 +21,6 @@
 }
 .menu ul li{
     float: left;
-    
-    
 }
 .menu ul li a{
     color: white;
@@ -34,9 +28,9 @@
     font-size: 1.2em;
     padding: 10px;
     display: block;
-
 }
 
+/* MAIN */
 .main{
     display: flex;
     justify-content: space-between;
@@ -49,9 +43,7 @@
     font-weight: bold;
 }
 
-
 /*CONTENT*/
-
 .content{ 
     display: flex;
     margin:0 auto;  
@@ -61,7 +53,6 @@
     flex-wrap: wrap;
     padding: 50px 0;
 }
-
 .sobre-text{
     flex: 2 1 300px;
     margin-top: 50px;
@@ -72,7 +63,6 @@
     font-weight: 600;
     font-family: 'Nunito', sans-serif;
 }
-
 .sobre-text p{
     padding: 5px;
     color: gray;
@@ -85,29 +75,21 @@
     margin: 0 10px;
 }
 
-
-
-
-
 /*PRODUTOS*/
-
 .produtos-container {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
 }
-
 .produtos-bg {
     max-width: 960px; 
     margin: 50px auto; 
-    
 }
 .produtos-bg h4{
     font-size: 3em;
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
     margin: 60px 0px 60px 0px;
-
 }
 .produtos-container h3{
     color: #a4a4a4;
@@ -129,9 +111,7 @@
 .produto-img{
     max-width: 100%;
     margin: 10px;
-    
 }
-
 
 /*VALORES*/
 .valores{
@@ -153,7 +133,6 @@
     color: #a4a4a4;
     text-align: center;
 }
-
 .valor span{
     max-width: 300px;
     font-size: 3em;
@@ -164,12 +143,10 @@
     font-weight: bold;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
-
 }
 .valor span sup{
     font-size: 1.5rem;
 }
-
 .valor ul{
     max-width: 300px;
     font-size: 1.25rem;
@@ -178,7 +155,6 @@
     font-style: italic;
     color: #7c7c7c;
 }
-
 .valor ul li{
     display:flex;
     justify-content: space-between;
@@ -192,7 +168,6 @@
     background: #2c70ff;
     border-radius: 50%;
 }
-
 .valor button{
     color: #222222;
     display: block;
@@ -204,32 +179,28 @@
     padding: 15px 20px;
     border: 4px solid;
 }
-
 .valor button:hover{
     background: #222222;
     color:white;
+    cursor:pointer;
 }
 
 /*QUALIDADE*/
-
 .qualidade-bg{
     max-width: 960px;
     margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
 }
-
 .itens-quality{
     flex: 1 1 300px;
     margin: 20px 10px;
 }
-
 .itens-quality h4{
     font-size: 2.25rem;
     color: #a4a4a4;
     margin-bottom:10px;
 }
-
 .itens-quality p{
     font-size: 1.25em;
     line-height: 1.4;
@@ -243,7 +214,6 @@
     height: 30px;
     margin-right: 10px;
 }
-
 .qualidade-bg  .qualidade-pink h4::before{
     content: '';
     display: inline-block;
@@ -261,13 +231,10 @@
     margin-right: 10px;
 }
 
-
-
 /*NEWSLATER*/
 .newslater-bg{
     background: #f7f7f7;
     padding: 10px;
-
 }
 .news-itens{
     max-width: 960px;
@@ -275,17 +242,14 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 .news-notify{
     flex: 1 1 260px;
     margin: 0 10px;
 }
-
 .news-notify h2{
     font-size: 3em;
     color: #a4a4a4;
 }
-
 .news-notify p{
     font-style: italic;
     font-size: 1.25;
@@ -293,7 +257,6 @@
     color: #7c7c7c;
     margin-bottom: 10px;
 }
-
 .news-form{
     flex: 2 1 200px;
     margin: 0 10px;
@@ -301,7 +264,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 .news-form input{
     flex: 3 1 200px;
     font-size: 1.25em;
@@ -314,7 +276,6 @@
     padding: 15px 10px;
     border-radius: 0px;
 }
-
 .news-form button{
     flex:1 1 200px;
     font-family: 'Nunito', sans-serif;
@@ -334,11 +295,10 @@
     background: #2c70ff;
     height: 100px;
 }
-
 .footer-bg span{
     text-align: center;
     display: block;
     font-size: 2.25em;
-    color: #122AB2;
+    color: white;
     padding-top: 20px;
 }
